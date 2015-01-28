@@ -1,0 +1,38 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.1.4
+  https://marketpress.com/product/backwpup-pro/
+  Blog Name: Gottlieb Landscape Design
+  Blog URL: http://glandscapedesign.com
+  Generated on: 2015-01-28 01:14.20
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet (v.3.0.1) from Automattic
+	http://akismet.com/
+BackWPup (v.3.1.4) from Inpsyde GmbH
+	https://marketpress.com/product/backwpup-pro/
+Contact Form 7 (v.3.8.1) from Takayuki Miyoshi
+	http://contactform7.com/
+Hello Dolly (v.1.6) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Limit Login Attempts (v.1.7.1) from Johan Eenfeldt
+	http://devel.kostdoktorn.se/limit-login-attempts
+TinyMCE Advanced (v.4.0.2) from Andrew Ozz
+	http://www.laptoptips.ca/projects/tinymce-advanced/
+WordPress Importer (v.0.6.1) from wordpressdotorg
+	http://wordpress.org/extend/plugins/wordpress-importer/
+
+Active plugins:
+------------------------------
+BackWPup
+Contact Form 7
+Limit Login Attempts
+TinyMCE Advanced
+WordPress Importer
+
+Inactive plugins:
+------------------------------
+Akismet
+Hello Dolly
