@@ -1,2 +1,0 @@
-[17-Apr-2014 09:54:48 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thewhitewhale/public_html/glandscapedesign.com/wp-content/plugins/hello.php on line 60
-[12-May-2014 05:11:15 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thewhitewhale/public_html/glandscapedesign.com/wp-content/plugins/hello.php on line 60
