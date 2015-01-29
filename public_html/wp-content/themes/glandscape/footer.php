@@ -80,7 +80,7 @@
 
             <div class="footercreditsbox">
 
-			<div id="footercredits"><?php echo get_option('gblu_credits');?></div> <div class="designer"><a title="site design by g-Blu Design" href="http://www.g-blu.com" target="_blank"><img class="alignright size-full wp-image-104" title="Site design by g-Blu design of Maine" src="http://glandscapedesign.com/wp-content/themes/glandscape/lib/img/theme/g-blu-logo2013.png" alt="" width="150" height="83" /></a></div></div>
+			<div id="footercredits"><?php echo get_option('gblu_credits');?></div> <div class="designer"><a title="site design by g-Blu Design" href="http://www.g-blu.com" target="_blank"><img class="alignright size-full wp-image-104" title="Site design by g-Blu design of Maine" src="/wp-content/themes/glandscape/lib/img/theme/g-blu-logo2013.png" alt="" width="150" height="83" /></a></div></div>
 
 						</div>
 
