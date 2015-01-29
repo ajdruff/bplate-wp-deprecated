@@ -3,9 +3,9 @@
  * The base configurations of the WordPress.
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * Secret Keys, WordPress Language, and ABSPATH. You can find more information
+ * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php} Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
  * installation. You don't have to use the web site, you can just copy this file
@@ -14,25 +14,10 @@
  * @package WordPress
  */
 
- /* Nomstock Custom Settings */
-
-
-
-define('FORCE_SSL_ADMIN', false);
-define ('WP_POST_REVISIONS', 0);
-define('AUTOSAVE_INTERVAL', 600); // One hour should be long enough!
-error_reporting(E_ALL);
-ini_set('display_errors', 'on');
-
-
-/* End Nomstock Custom Settings */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-
-include(dirname(__FILE__) . '/wp-config-db.php');
-
-
+include('wp-config-db.php');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -49,15 +34,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'B+:)F[=)0F#_;+tg#S^n4BOV{Ym]vSvDrPU-amS|Ub$ZT~KDwJJU`2X-3+BtFXx-');
-define('SECURE_AUTH_KEY',  'cNyCRu-xR?8+>vUvQw#Hp9e8x4o)4QF-C-G)KyVsR12Fx+KEDN{/=.:<gBl5s9<3');
-define('LOGGED_IN_KEY',    'KG {./UV^<(ISEHZ1.u]{!cor=bQ`LKQwqKau%f(?1zT=p-I5u]x;pr.|~= 1W1^');
-define('NONCE_KEY',        '1$XP>Ht%FXD|? x*a%|Dq51PNG0qx/|`RppZ=co#]Db?[+L|cimBlf e6Y[(SZ@y');
-define('AUTH_SALT',        '{D43;p2}YT:=0&ca-3|+(X%*#=-J-I?-}5e5=#^@Ujq-dHm-94+f7>2 $7&E5e{]');
-define('SECURE_AUTH_SALT', '%:pMx5OvC;l_[j$RH+k4>?{RiAi2PpJn[rL#B;&pxdF.30=W=|u5Vb6?);[5IWy}');
-define('LOGGED_IN_SALT',   'Bu9orYzXj3N3i=PRw`x+3s@NEhF-q/8Xg%EIwB-v|{`D-#1e*Z3qC(N]3`V}G9)R');
-define('NONCE_SALT',       '>`XFs-y3hlWpekBb^m~IBZq}qP+ A}Fsu|zT=gO]o*$#_C{/:6#SpN+K1_yH6_hS');
-
+define('AUTH_KEY',         'KJlX(^.>P8s@{Q+5uIg[ZAM4$>Bf@`2qx9)+,eY|5-A+FXHec+%cc%d0j]?AcPbP');
+define('SECURE_AUTH_KEY',  '`t|LvCn%jn1M*&+5{LV(4zR[SC,w1v|%x4n</fn-G8-YDo8=9vcB/c/9swS0[r^S');
+define('LOGGED_IN_KEY',    '`^SD+|%$zJOKRLz{BXZ]{ST!~OGgaOE([R cPLl?]cr`UwSnU;y]w$11}RE/xzx5');
+define('NONCE_KEY',        'ZH,Z3UJ;^XU92[fu_T-L<DTs*+6%06e8C?/Jemu0J>i[r}Y#K%rOK!g/|s*k$/>/');
+define('AUTH_SALT',        'zPv.,(]ld14k-_)b852t{o$`j*if4%pz*@/Oq6F$-cg{[FDME3@/u|5dOlREBc&E');
+define('SECURE_AUTH_SALT', '}bXayGQ}m>irL3lwk0ij=EX/4-d_WT#z{@UMD(Gs;EjF*_P*?x91Tgcg(m0-/1|2');
+define('LOGGED_IN_SALT',   'CCP +*k^$3|x)IlH>S-Sy!Ikh.7d`_qa0wmde?0!_tcp@>)?(:;? }{q/iEQ,lQ8');
+define('NONCE_SALT',       'V-LL*HXK&ggK1wYwSHRrNA:~tvl|Oz6RUGamG>i6zFhYR0oH?/LkM~>b_c*F3Z+5');
 
 /**#@-*/
 
@@ -70,13 +54,23 @@ define('NONCE_SALT',       '>`XFs-y3hlWpekBb^m~IBZq}qP+ A}Fsu|zT=gO]o*$#_C{/:6#S
 $table_prefix  = 'wp_';
 
 /**
+ * WordPress Localized Language, defaults to English.
+ *
+ * Change this to localize WordPress. A corresponding MO file for the chosen
+ * language must be installed to wp-content/languages. For example, install
+ * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
+ * language support.
+ */
+define('WPLANG', '');
+
+/**
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -86,3 +80,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+?>
