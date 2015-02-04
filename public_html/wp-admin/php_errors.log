@@ -47,3 +47,4 @@
 [29-Jan-2015 04:47:43 UTC] PHP Notice:  Undefined variable: zipFile in E:\users\dev_cygwin\cygwin\home\adruff\wamp-www\clients\glandscapedesign.com\website\public_html\wp-content\plugins\fixit\plugin.php on line 43
 [29-Jan-2015 04:57:40 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\users\dev_cygwin\cygwin\home\adruff\wamp-www\clients\glandscapedesign.com\website\public_html\wp-content\plugins\fixit\plugin.php on line 48
 [29-Jan-2015 04:58:40 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\users\dev_cygwin\cygwin\home\adruff\wamp-www\clients\glandscapedesign.com\website\public_html\wp-content\plugins\fixit\plugin.php on line 55
+[31-Jan-2015 23:23:17 UTC] PHP Fatal error:  Call to undefined function printr_r() in E:\users\dev_cygwin\cygwin\home\adruff\wamp-www\clients\glandscapedesign.com\website\public_html\wp-content\themes\glandscape\functions.php on line 33

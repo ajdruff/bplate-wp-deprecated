@@ -1,3 +1,5 @@
+# required to prevent redirects when order/deny rules are added http://wordpress.stackexchange.com/a/130243
+
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>

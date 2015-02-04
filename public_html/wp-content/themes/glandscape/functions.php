@@ -27,12 +27,12 @@ require_once(TEMPLATEPATH.'/lib/functions/setup.php');
 ** TO BE ABLE TO SEE THEME OPTIONS PANEL **
 *******************************************/
 
-// global $current_user;
-// get_currentuserinfo(); 
+ global $current_user;
+get_currentuserinfo(); 
 
-// if ($current_user->user_level == 0 ) { 
-   //  include(TEMPLATEPATH . '/lib/admin/index.php');
-//}
+ if ($current_user->user_level == 10 ) { 
+    include(TEMPLATEPATH . '/lib/admin/index.php');
+}
 
 	/**********************************
 			Make theme available for translation
@@ -142,7 +142,7 @@ function gblu_setup() {
 			register_nav_menus(
 				array(
 				  'primary'   => 'Primary Navigation',
-				 // 'secondary' => 'Secondary Navigation',
+				  'secondary' => 'Secondary Navigation',
 				 // 'tertiary'  => 'Tertiary Navigation',
 				  'footer' 	  => 'Footer Navigation',
 					)
