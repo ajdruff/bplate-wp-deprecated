@@ -86,9 +86,53 @@
 			</div>
 			<div id="primary">
 						<?php if(has_nav_menu('primary')):?>
-						<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_container' => 'div', 'container_id' => 'primary-menu','menu_class' => '',  'theme_location' => 'primary'));?>
+						<?php 
+                                                
+                                                
+                                                wp_nav_menu(
+                                                        array( 
+                                                            'sort_column' => 'menu_order', //
+                                                            'menu_container' => 'div', //The Dom ID that is applied to the container 
+                                                            'container_id' => 'primary-menu',
+                                                            'menu_class' => '',  //The class that is applied to the ul element which encloses the menu items. Multiple classes can be separated with spaces. 
+                                                            'theme_location' => 'primary' //The location in the theme to be used--must be registered with register_nav_menu() in order to be selectable by the user 
+                                                            )
+                                                        );
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                ?>
+                          
 						<?php endif;?>
+
 			</div>
+    			<div id="secondary">
+						<?php if(has_nav_menu('secondary')):?>
+						<?php 
+                                                
+                                                
+                                                wp_nav_menu(
+                                                        array( 
+                                                            'sort_column' => 'menu_order', //
+                                                            'menu_container' => 'div', //The Dom ID that is applied to the container 
+                                                            'container_id' => 'secondary-menu',
+                                                            'menu_class' => 'secondary_menu',  //The class that is applied to the ul element which encloses the menu items. Multiple classes can be separated with spaces. 
+                                                            'theme_location' => 'secondary' //The location in the theme to be used--must be registered with register_nav_menu() in order to be selectable by the user 
+                                                            )
+                                                        );
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                ?>
+                          
+						<?php endif;?>
+
+			</div>
+    
             <div id="facebook"><a target="_blank" href="https://www.facebook.com/pages/Gottlieb-Landscape-Design/134478396606869"><img src="wp-content/themes/glandscape/lib/img/theme/facebook.png" width="35" height="35" alt="Facebook" title="Visit Gottlieb Landscape Facebook Page"/></a></div>
           
 </div>

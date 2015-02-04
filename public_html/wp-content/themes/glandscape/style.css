@@ -916,6 +916,8 @@ p.event-date { margin:0 0 4px 0; }
    11:  PORTFOLIO AND GALLERY
 
    ----------------------------------------------------------- */
+#423C29
+
 
 
 .portfolio img { margin:0 0 0 0; }
@@ -1011,8 +1013,17 @@ SECONDARY MENU
 
 #secondary-menu ul { list-style:none; margin:0; padding:0; float:left; margin:0 10px -6px 0; position:relative; z-index:999; }
 #secondary-menu li { display:inline; float:left; clear:none; margin-right:10px; padding:0; font-weight:normal; font-size:11px;  position:relative; z-index:60; text-transform:uppercase;}
+#secondary-menu li { display:inline; float:left; clear:none; margin-right:10px; padding:0; font-weight:normal; font-size:11px;  position:relative; z-index:60; text-transform:uppercase;}
+
+#primary-menu-for-secodary-menu ul li a { font-size:15px; font-weight:bold; color: #473d2d;display:inline; float:left; clear:none; line-height:60px; margin:0px 2px 0 0; padding:0px 20px 0px 20px;  position:relative; height:50px; letter-spacing:normal;}
+
 #secondary-menu li ul { display:none; }
 #secondary-menu li a { display:inline; float:left; color:#999; padding:0 10px 8px 0}
+
+
+
+
+
 
 #secondary-menu li a:hover {color:#777; text-decoration:none; background:url(lib/img/theme/menu-hover.png) no-repeat bottom center;}
 /* Level 2 */
@@ -1467,3 +1478,6 @@ span.tinytext { font-size:10px; letter-spacing:1px; margin:4px 0 5px 0; line-hei
 #wpadminbar ul, #wpadminbar ul li {clear:none; } /* Added in version 1.3 */
 #wpadminbar #adminbarsearch .adminbar-button { clear:none; } /* Added in version 1.3 */
 #wpadminbar ul li a:hover {text-shadow:none; } /* Added in version 1.3 */
+
+/* Site Specific Customization Overrides */
+@import "lib/css/custom.css"; 
