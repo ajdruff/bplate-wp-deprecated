@@ -1,3 +1,0 @@
-[25-May-2014 22:19:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/thewhitewhale/public_html/glandscapedesign.com/wp-content/themes/twentytwelve/tag.php on line 14
-[31-May-2014 14:41:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/thewhitewhale/public_html/glandscapedesign.com/wp-content/themes/twentytwelve/404.php on line 10
-[20-Dec-2014 08:09:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/thewhitewhale/public_html/glandscapedesign.com/wp-content/themes/twentytwelve/404.php on line 10
